@@ -1,0 +1,30 @@
+*{box-sizing: border-box;}
+
+
+.header{background-color: #0a0a23;
+text-align: center;
+color: white;
+text-transform: uppercase;
+padding: 32px;
+margin: 5px;}
+
+.gallery{ display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 16px;
+max-width: 1400px;
+margin: 0 auto;
+padding: 20px 10px;}
+
+.gallery img{ height: 300px;
+border-radius: 5px;
+object-fit: cover;
+max-width: 350px;
+width: 100%;}
+
+.gallery::after {
+    content: "";
+    width: 350px;
+  }
